@@ -168,12 +168,12 @@ ORDER BY year ASC; -- Sort them in ascending order of year
  * 
  * It seems that my performance is improving each year.
  * However, there is a variety in the number of courses for each year.
- * To address this, we compare for each academic year (e.g., 1st year, 2nd year).
+ * To address this, we compare by each academic year (e.g., 1st year, 2nd year).
  */
 
 /* Query 5 : Compare performance by each academic year
  * 
- * Calculate the number of courses taken and gpa for each academic year.
+ * Calculate the number of courses and gpa for each academic year.
  */
 
 SELECT 
@@ -196,7 +196,7 @@ ORDER BY academic_year;
 
 /* Query 6 : Compare performance by each subject
  * 
- * Calculate the number of courses taken and GPA for each subject.
+ * Calculate the number of courses and GPA for each subject.
  */
 
 SELECT 
@@ -210,14 +210,14 @@ ORDER BY course_count DESC;
 
 /* Observations:
  * 
- * I achieved perfect GPAs (4.0/4.0) for Math despite taking 7 courses.
+ * I achieved a perfect GPA (4.0/4.0) for Math despite taking 7 courses.
  * From 2.0 GPA, It's clear that Anthropology didn't align well with my strengths.
  */
 
 /* Conclusions:
  * 
  * Cumulative GPA	: 3.7 / 4.0
- * Strong eason	: Spring/Summer
+ * Strong season	: Spring/Summer
  * Strong subject	: Math
  * Attribute		: Consistent yearly improvement
  */
