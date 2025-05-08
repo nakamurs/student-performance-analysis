@@ -217,8 +217,7 @@ ORDER BY course_count DESC;
 /* Conclusions:
  * 
  * Cumulative GPA	: 3.7 / 4.0
- * Strong Season	: Spring/Summer
- * Strong Subject	: Math
- * Attribute		: Consistent Yearly Improvement
- * From 2.0 GPA, It's clear that taking an Anthropology course was a mistake.
+ * Strong eason	: Spring/Summer
+ * Strong subject	: Math
+ * Attribute		: Consistent yearly improvement
  */
